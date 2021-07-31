@@ -14,13 +14,37 @@ Our data set consists of 5000 images for five categories.
 
 We will be using 800 images for training and 200 images for testing
 
+<div>
+        <table>
+            <caption>Accuracy for different models</caption>
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>Accuracy</th>
+                    <th>Validation Accuracy</th>
+                </tr>
+                <tr>
+                    <td>0.25 Drop Out</td>
+                    <td>0.20</td>
+                    <td>0.20</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>L1 Regularization</td>
+                    <td>0.20</td>
+                    <td>0.20</td>
+                </tr>
+                <tr>
+                    <td>Inception V3</td>
+                    <td>1.00</td>
+                    <td>0.80</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
 
-**CNN model with 0.25 dropout:** loss: 1.6096 - accuracy: 0.2032 - val_loss: 1.6095 - val_accuracy: 0.2000
-
-**CNN model with L1 regularization:** loss: 11.1937 - accuracy: 0.2032 - val_loss: 11.2870 - val_accuracy: 0.2000
-
-**CNN model with Inception_V3 for feature learning:** loss: 0.0013 - acc: 1.0000 - val_loss: 0.8679 - val_acc: 0.7643
 
 **_Note: In our dataset instead of Diamond we have Oblong  as a feature._**
 
